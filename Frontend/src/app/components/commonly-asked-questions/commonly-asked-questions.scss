@@ -1,0 +1,794 @@
+@use "../../../variable.scss" as *;
+
+.Questionspara {
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    .testcontent {
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 40px;
+
+        .asterisk {
+            color: #a5ff32;
+            font-size: 2rem;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+    }
+
+    .imgRow {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .img1 {
+            width: 380px;
+            height: 397px
+        }
+
+        .img2 {
+            position: absolute;
+            top: 174px;
+            right: 324px;
+            width: 300px;
+            height: 287px
+        }
+
+        .img3 {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            bottom: 0p;
+            top: 39px;
+            left: 32px;
+
+        }
+
+        .img4 {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            bottom: 0p;
+            top: 376px;
+            left: 338px;
+
+
+        }
+    }
+
+    .textRow {
+        .headtxt {
+            padding: 10px;
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 10px;
+
+            h1 {
+                font-size: 27px;
+                font-family: fantasy;
+                font-weight: 600;
+            }
+        }
+
+        .text {
+            padding: 10px;
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 10px;
+
+        }
+    }
+}
+
+@include bigscreen() {
+    .Questionspara {
+        padding-top: 20px;
+        padding-bottom: 100px;
+
+        .testcontent {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 40px;
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 380px;
+                height: 397px
+            }
+
+            .img2 {
+                position: absolute;
+                top: 174px;
+                right: 324px;
+                width: 300px;
+                height: 287px
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 39px;
+                left: 32px;
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 376px;
+                left: 338px;
+
+
+            }
+        }
+
+        .textRow {
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+@include desktop() {
+    .Questionspara {
+        padding-top: 20px;
+        padding-bottom: 100px;
+
+        .testcontent {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 40px;
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 380px;
+                height: 397px
+            }
+
+            .img2 {
+                position: absolute;
+                top: 174px;
+                right: 324px;
+                width: 300px;
+                height: 287px
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 39px;
+                left: 32px;
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 376px;
+                left: 338px;
+
+
+            }
+        }
+
+        .textRow {
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+@include laptop() {
+    .Questionspara {
+        padding-top: 20px;
+        padding-bottom: 100px;
+
+        .testcontent {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 40px;
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 323px;
+                height: 317px;
+            }
+
+            .img2 {
+                position: absolute;
+                top: 167px;
+                right: 310px;
+                width: 250px;
+                height: 239px;
+
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 71px;
+                left: 32px;
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 337px;
+                left: 252px;
+
+            }
+        }
+
+        .textRow {
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+@include ipadpro1() {
+    .Questionspara {
+        padding-top: 20px;
+
+        .testcontent {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 40px;
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 284px;
+                height: 277px;
+            }
+
+            .img2 {
+                position: absolute;
+                width: 224px;
+                height: 188px;
+                bottom: 0p;
+                top: 192px;
+                left: 39px;
+
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 71px;
+                left: 32px;
+
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 270px;
+                left: 252px;
+
+            }
+        }
+
+        .textRow {
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+@include ipadpro() {
+    .Questionspara {
+        padding-top: 20px;
+
+        .testcontent {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 40px;
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 284px;
+                height: 313px;
+                padding-top: 20px;
+            }
+
+            .img2 {
+                position: absolute;
+                width: 224px;
+                height: 203px;
+                bottom: 0p;
+                top: 192px;
+                left: -11px;
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 71px;
+                left: -36px;
+
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 290px;
+                left: 200px;
+
+            }
+        }
+
+        .textRow {
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+@include ipad() {
+    .Questionspara {
+        padding-top: 20px;
+
+        .testcontent {
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 40px;
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 284px;
+                height: 313px;
+                padding-top: 20px;
+            }
+
+            .img2 {
+                position: absolute;
+                width: 224px;
+                height: 203px;
+                bottom: 0p;
+                top: 192px;
+                left: -11px;
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 71px;
+                left: -36px;
+
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 290px;
+                left: 200px;
+
+            }
+        }
+
+        .textRow {
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+@include tablet() {
+    .Questionspara {
+        padding-top: 20px;
+
+        .testcontent {
+            font-size: 37px;
+            text-align: center;
+            padding-bottom: 0px;
+
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 354px;
+                height: 346px;
+            }
+
+            .img2 {
+                position: absolute;
+                top: 174px;
+                right: 215px;
+                width: 294px;
+                height: 286px;
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 39px;
+                left: 32px;
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 350px;
+                left: 316px;
+
+
+
+
+            }
+        }
+
+        .textRow {
+            padding-top: 140px;
+
+            .textContent {
+
+                align-items: center;
+                text-align: center;
+                padding: 6px;
+
+                .headtxt {
+                    padding: 10px;
+                    border: 1px solid black;
+                    /* margin: 10px; */
+                    border-radius: 10px;
+                    margin-bottom: 5px;
+
+                    h1 {
+                        font-size: 19px;
+                        font-family: fantasy;
+                        font-weight: 600;
+                    }
+                }
+
+                .text {
+                    padding: 10px;
+                    border: 1px solid black;
+                    /* margin: 10px; */
+                    border-radius: 10px;
+                    margin-bottom: 5px;
+
+                }
+
+            }
+
+
+        }
+    }
+
+}
+
+@include mobile() {
+    .Questionspara {
+        padding-top: 20px;
+
+        .testcontent {
+            font-size: 37px;
+            text-align: center;
+            padding-bottom: 0px;
+
+
+            .asterisk {
+                color: #a5ff32;
+                font-size: 2rem;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+        }
+
+        .imgRow {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .img1 {
+                width: 319px;
+                height: 306px;
+            }
+
+            .img2 {
+                position: absolute;
+                top: 174px;
+                right: 146px;
+                width: 195px;
+                height: 179px;
+            }
+
+            .img3 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 13px;
+                left: 15px;
+
+            }
+
+            .img4 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                bottom: 0p;
+                top: 291px;
+                left: 250px;
+
+
+
+            }
+        }
+
+        .textRow {
+            padding-top: 140px;
+
+            .headtxt {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 27px;
+                    font-family: fantasy;
+                    font-weight: 600;
+                }
+            }
+
+            .text {
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}

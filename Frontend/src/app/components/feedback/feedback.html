@@ -1,0 +1,85 @@
+<div class="container">
+        <div class="main">
+            <h2 class="text-center mb-5">Happy Words From <br>Our Customer</h2>
+            <img src="" alt="">
+        </div>
+        <div class="row ">
+            <div class="position-relative">
+               
+                <!-- carousel-dynamic.component.html -->
+                <div id="multiItemCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div *ngFor="let chunk of chunkedItems; let i = index" class="carousel-item"
+                            [class.active]="i === 0">
+                            <div class="row">
+                                <div class="col-md-4 my-3" *ngFor="let item of chunk">
+                                    <div class="review-card p-3">
+                                        <div class="stars mb-2">
+                                            <ng-container *ngFor="let _ of getStars(item.rating)">⭐</ng-container>
+                                        </div>
+
+                                        <h4 class="review-title">{{ item.title }}</h4>
+                                        <p class="review-text">{{ item.text }}</p>
+
+                                        <div class="review-footer d-flex align-items-center mt-3">
+                                            <img [src]="item.reviewer.avatarUrl" alt="User" class="avatar me-2" />
+                                            <div class="reviewer-info">
+                                                <p class="reviewer-name mb-0 fw-semibold">{{ item.reviewer.name }}</p>
+                                                <p class="reviewer-location mb-0 text-muted"
+                                                    style="font-size: 0.85rem;">{{
+                                                    item.reviewer.location }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#multiItemCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#multiItemCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button> -->
+                </div>
+            </div>
+            <!-- 
+            <div class="col-md-4">
+                <div class="review-card">
+                    <div class="stars">
+                        <ng-container *ngFor="let _ of getStars(3)">⭐</ng-container>
+                    </div>
+
+                    <h4 class="review-title">Exceptional Service!</h4>
+                    <p class="review-text">
+                        Exceptional branding service! I was thoroughly impressed and delighted with the outcome,
+                        since it was a last-minute request that was delivered on time.
+                    </p>
+                    <div class="review-footer">
+                        <img src="" alt="User" class="avatar" />
+                        <div class="reviewer-info">
+                            <p class="reviewer-name">Wade Warren</p>
+                            <p class="reviewer-location">USA, California</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 border rounded">
+                    <p>"Exceptional Branding and Insight!"</p>
+                    <small>Wade Warren<br>USA, California</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 border rounded">
+                    <p>"On-time delivery and solid results!"</p>
+                    <small>Wade Warren<br>USA, California</small>
+                </div>
+            </div> -->
+        </div>

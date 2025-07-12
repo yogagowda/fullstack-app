@@ -1,0 +1,759 @@
+@use "../../../variable.scss" as *;
+
+.aboutpage{
+    padding-top: 100px;
+    .textpara{
+        position: relative;
+        .img1{
+            position: absolute;
+    width: 105px;
+    height: 126px;
+    right: 30px;
+
+        }
+        .img2{
+                position: absolute;
+    width: 105px;
+    height: 126px;
+    right: 600px;
+    top: -102px;
+
+
+        }
+        .img3{
+          position: absolute;
+    width: 105px;
+    height: 126px;
+    right: 770px;
+    bottom: 10px;
+    top: 461px;
+
+        }
+        .headingtxt{
+             font-size: 55px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 27px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+@include bigscreen() {
+ .aboutpage{
+    padding-top: 100px;
+    .textpara{
+        position: relative;
+        .img1{
+            position: absolute;
+    width: 105px;
+    height: 126px;
+    right: 30px;
+
+        }
+        .img2{
+                position: absolute;
+            position: absolute;
+        width: 105px;
+        height: 126px;
+        right: 711px;
+
+        }
+        .img3{
+          position: absolute;
+        width: 105px;
+        height: 126px;
+        right: 706px;
+        bottom: 10px;
+        top: 359px;
+
+
+        }
+        .headingtxt{
+             font-size: 55px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 27px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include desktop() {
+ .aboutpage{
+    padding-top: 100px;
+    .textpara{
+        position: relative;
+        .img1{
+            position: absolute;
+    width: 105px;
+    height: 126px;
+    right: 30px;
+
+        }
+       .img2{
+            position: absolute;
+        width: 64px;
+        height: 121px;
+        right: 657px;
+        right: 590px;
+        top: -102px;
+
+        }
+        .img3{
+          position: absolute;
+        width: 64px;
+        height: 126px;
+        right: 649px;
+        bottom: 10px;
+               top: 359px;
+
+
+        }
+        .headingtxt{
+             font-size: 55px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 27px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include laptop() {
+ .aboutpage{
+    padding-top: 100px;
+    .textpara{
+        position: relative;
+        .img1{
+            position: absolute;
+    width: 105px;
+    height: 126px;
+    right: 30px;
+
+        }
+        .img2{
+            position: absolute;
+        width: 64px;
+        height: 121px;
+        right: 657px;
+        right: 519px;
+        top: -102px;
+
+        }
+        .img3{
+          position: absolute;
+        width: 64px;
+        height: 126px;
+        right: 546px;
+        bottom: 10px;
+         top: 359px;
+
+
+        }
+        .headingtxt{
+             font-size: 50px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 23px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include ipadpro1() {
+  .aboutpage{
+    padding-top: 100px;
+    .textpara{
+        position: relative;
+        .img1{
+                   position: absolute;
+        width: 71px;
+        height: 78px;
+        right: 30px;
+        }
+        .img2{
+                  position: absolute;
+        position: absolute;
+        width: 60px;
+        height: 121px;
+        right: 657px;
+        right: 425px;
+        top: -102px;
+    
+
+        }
+        .img3{
+          position: absolute;
+        width: 60px;
+        height: 126px;
+        right: 430px;
+        bottom: 59px;
+        top: 329px;
+
+        }
+        .headingtxt{
+             font-size: 41px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 19px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include ipadpro() {
+  .aboutpage{
+    padding-top: 53px;
+    .textpara{
+        position: relative;
+        .img1{
+                   position: absolute;
+        width: 71px;
+        height: 78px;
+        right: 30px;
+        }
+        .img2{
+                 position: absolute;
+        width: 60px;
+        height: 121px;
+        right: 657px;
+        right: 373px;
+        top: -71px;
+
+        }
+        .img3{
+          position: absolute;
+        width: 60px;
+        height: 126px;
+        right: 373px;
+        bottom: 29px;
+        top: 244px;
+
+        }
+        .headingtxt{
+             font-size: 32px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include ipad() {
+  .aboutpage{
+    padding-top: 53px;
+    .textpara{
+        position: relative;
+        .img1{
+                   position: absolute;
+        width: 71px;
+        height: 78px;
+        right: 30px;
+        }
+        .img2{
+                 position: absolute;
+        position: absolute;
+        width: 60px;
+        height: 121px;
+        right: 657px;
+        right: 343px;
+        top: -71px;
+    
+
+        }
+        .img3{
+         position: absolute;
+        width: 49px;
+        height: 126px;
+        right: 347px;
+        bottom: 29px;
+        top: 244px;
+
+        }
+        .headingtxt{
+             font-size: 32px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include tablet() {
+  .aboutpage{
+    padding-top: 53px;
+    .textpara{
+        position: relative;
+        .img1{
+                   position: absolute;
+        width: 71px;
+        height: 78px;
+        right: 30px;
+        }
+        .img2{
+          position: absolute;
+        width: 53px;
+        height: 121px;
+        right: 657px;
+        right: 475px;
+        top: -71px;
+    
+
+        }
+        .img3{
+        position: absolute;
+        width: 49px;
+        height: 126px;
+        right: 482px;
+        bottom: 30px;
+        top: 303px;
+
+        }
+        .headingtxt{
+             font-size: 42px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
+@include mobile() {
+  .aboutpage{
+    padding-top: 53px;
+    .textpara{
+        position: relative;
+        .img1{
+                   position: absolute;
+        width: 71px;
+        height: 78px;
+        right: 30px;
+        }
+        .img2{
+          position: absolute;
+        width: 53px;
+        height: 121px;
+        right: 657px;
+        right: 475px;
+        top: -71px;
+    
+
+        }
+        .img3{
+        position: absolute;
+        width: 49px;
+        height: 126px;
+        right: 482px;
+        bottom: 30px;
+        top: 303px;
+
+        }
+        .headingtxt{
+             font-size: 33px;
+                line-height: 1.2;
+                font-weight: 500;
+                  .asterisk {
+                    color: #a5ff32;
+                    font-size: 2rem;
+                    vertical-align: middle;
+                    margin-left: 4px;
+                }
+        }
+          .checklist {
+            list-style: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size:13px;
+                font-weight: 500;
+                margin-bottom: 1.2rem;
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #a5ff32;
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+    }
+    .imgRow{
+        position: relative;
+        .img1{
+            position: absolute;
+    position: absolute;
+    width: 51px;
+    height: 138px;
+    right: 86px;
+    top: -93px;
+
+
+        }
+    }
+}
+
+}
