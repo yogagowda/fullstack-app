@@ -1,65 +1,34 @@
- <div class="container">
-        <h2 class="text-center mb-5">Our Latest News & Blogs</h2>
-        <div class="row text-center mx-5">
-            <div id="awardCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-                <div class="carousel-inner">
-                    <div class="carousel-item" *ngFor="let slide of chunkedAwards; let i = index"
-                        [class.active]="i === 0">
-                        <div class="row">
-                            <div class="col-md-4 my-4" *ngFor="let item of slide">
-                                <div class="award-card">
-                                    <img class="award-image" [src]="item.image" alt="Award Image" />
-                                    <div class="award-content">
-                                        <h5 class="award-title" [innerHTML]="item.title"></h5>
-                                        <a [href]="item.link" class="award-link">
-                                            Read More <span class="arrow">↗</span>
-                                        </a>
-                                    </div>
+<div class="container">
+    <h2 class="text-center mb-5">Our Latest News & Blogs</h2>
+    <div class="row text-center mx-5">
+        <div id="awardCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+
+            <div class="carousel-inner">
+                <div class="carousel-item" *ngFor="let slide of chunkedAwards; let i = index" [class.active]="i === 0">
+                    <div class="row">
+                        <div class="col-md-4 my-4" *ngFor="let item of slide">
+                            <div class="award-card">
+                                <img class="award-image" [src]="item.image" alt="Award Image" />
+                                <div class="award-content">
+                                    <h5 class="award-title" [innerHTML]="item.title"></h5>
+                                    <a [href]="item.link" class="award-link">
+                                        Read More <span class="arrow">↗</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Controls -->
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#awardCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#awardCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button> -->
             </div>
-            <!-- <div class="col-md-4 my-4">
-                <div class="award-card">
-                    <img class="award-image" src="/Images/Blog Img 1.png" alt="Award Image">
 
-                    <div class="award-content">
-                        <h5 class="award-title">Wins 2023 good design<br>London Award</h5>
-                        <a href="#" class="award-link">Read More <span class="arrow">↗</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="award-card">
-                    <img class="award-image" src="/Images/Blog Img 2.png" alt="Award Image">
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#awardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#awardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
 
-                    <div class="award-content">
-                        <h5 class="award-title">Wins 2023 good design<br>London Award</h5>
-                        <a href="#" class="award-link">Read More <span class="arrow">↗</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="award-card">
-                    <img class="award-image" src="/Images/Blog Img 3.png" alt="Award Image">
-
-                    <div class="award-content">
-                        <h5 class="award-title">Wins 2023 good design<br>London Award</h5>
-                        <a href="#" class="award-link">Read More <span class="arrow">↗</span></a>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
+</div>

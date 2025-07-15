@@ -40,33 +40,36 @@
                 <h3 class="mb-4 text-start">Send us a message</h3>
                 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="mx-auto" style="max-width: 600px;">
                     <input type="text" class="form-control mb-2" formControlName="name" placeholder="Your name">
-                    <div *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.invalid  && isSubmit"
-                        class="text-danger mb-2">
-                        Name is required (min 2 characters).
+                    <div *ngIf="contactForm.controls['name'].hasError('required') && isSubmit" class="text-danger mb-2"
+                        style="text-align: left;">
+                        *Name is required .
                     </div>
 
                     <input type="email" class="form-control mb-2" formControlName="email"
                         placeholder="Your email address">
                     <div *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.invalid  && isSubmit"
-                        class="text-danger mb-2">
-                        Enter a valid email.
+                        class="text-danger mb-2" style="text-align: left;">
+                        *Enter a valid email.
                     </div>
+
 
                     <input type="text" class="form-control mb-2" formControlName="phone" placeholder="Your Phone Number"
                         maxlength="10" appNumberOnly>
                     <div *ngIf="contactForm.get('phone')?.touched && contactForm.get('phone')?.invalid  && isSubmit"
-                        class="text-danger mb-2">
-                        Enter a valid 10-digit phone number.
+                        class="text-danger mb-2" style="text-align: left;">
+                        *Enter a valid 10-digit phone number.
                     </div>
 
-                    <textarea class="form-control mb-2 query " formControlName="query"
-                        placeholder="Type any queries"></textarea>
-                    <div *ngIf="contactForm.get('query')?.touched && contactForm.get('query')?.invalid && isSubmit"
-                        class="text-danger mb-2">
-                        Message must be at least 10 characters.
+                    <textarea class="form-control mb-2 query" formControlName="query" placeholder="Type any queries"
+                        maxlength="200" (input)="updateCharacterCount()"></textarea>
+
+                    <!-- Character counter -->
+                    <div class="text-end small text-white mb-2">
+                        {{ currentCharCount }}/200 characters
                     </div>
 
-                    <div *ngIf="success" class="text-success">
+
+                    <div *ngIf="success" class="text-success" style="text-align: left;">
                         Sucessfully submited !
                     </div>
                     <button type="submit" class="contact-btn w-100">Send message <span class="icon-circle">

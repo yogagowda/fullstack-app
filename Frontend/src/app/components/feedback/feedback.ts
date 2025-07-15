@@ -8,20 +8,21 @@ import { CommonService } from '../../service/common';
   templateUrl: './feedback.html',
   styleUrl: './feedback.scss'
 })
-export class Feedback implements OnInit{
+export class Feedback implements OnInit {
   constructor(
     private commaomService: CommonService) { }
-    items:any
+  items: any
 
   ngOnInit() {
-    this.commaomService.getStarRating().subscribe((data:any)=>{
-      this.items=data.list
+    this.commaomService.getStarRating().subscribe((data: any) => {
+      console.log("data=====", data)
+      this.items = data.list
       this.chunkItems(3, this.items)
-      
+
     })
-    
-    
-    
+
+
+
   }
 
   // items = [
@@ -93,6 +94,7 @@ export class Feedback implements OnInit{
     this.chunkedItems = [];
     for (let i = 0; i < items.length; i += size) {
       this.chunkedItems.push(items.slice(i, i + size));
+      console.log("this.chunkedItems====", this.chunkedItems)
     }
   }
 
